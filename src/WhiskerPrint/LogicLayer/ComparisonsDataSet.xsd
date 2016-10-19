@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ComparisonsDataSet" targetNamespace="http://tempuri.org/ComparisonsDataSet.xsd" xmlns:mstns="http://tempuri.org/ComparisonsDataSet.xsd" xmlns="http://tempuri.org/ComparisonsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ComparisonsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ComparisonsDataSet" msprop:Generator_DataSetName="ComparisonsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Comparisons" msprop:Generator_UserTableName="Comparisons" msprop:Generator_RowDeletedName="ComparisonsRowDeleted" msprop:Generator_TableClassName="ComparisonsDataTable" msprop:Generator_RowChangedName="ComparisonsRowChanged" msprop:Generator_RowClassName="ComparisonsRow" msprop:Generator_RowChangingName="ComparisonsRowChanging" msprop:Generator_RowEvArgName="ComparisonsRowChangeEvent" msprop:Generator_RowEvHandlerName="ComparisonsRowChangeEventHandler" msprop:Generator_TablePropName="Comparisons" msprop:Generator_TableVarName="tableComparisons" msprop:Generator_RowDeletingName="ComparisonsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Score" msprop:Generator_UserColumnName="Score" msprop:Generator_ColumnPropNameInRow="Score" msprop:Generator_ColumnVarNameInTable="columnScore" msprop:Generator_ColumnPropNameInTable="ScoreColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

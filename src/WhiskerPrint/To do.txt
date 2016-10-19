@@ -1,0 +1,6 @@
+If candidate photo is opened before a library is opened,
+once a library is opened the first item in the library is gone
+
+Score column doesn't sort b/c it is not data-bound, I will
+have to have a separate list for the score results (no sharing with
+libraryDataGridView) to allow sorting
